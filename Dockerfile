@@ -7,3 +7,4 @@ RUN rm -rf /tmp/pthreads
 COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
 RUN php composer.phar install
+CMD ["/bin/bash"]
